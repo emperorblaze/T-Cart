@@ -1,2 +1,2 @@
 # Tech Cart
-Hi
+Hi, This is a e-commerce website made using html and css
