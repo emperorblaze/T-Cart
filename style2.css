@@ -1,0 +1,353 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body{
+    align-items: center;
+    margin: 0px auto;
+    width: 100%;
+  }
+  .topnav {
+    background-color: #171c24;;
+    overflow: hidden;
+    padding-right: 5px;
+
+  }
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #ff3d00;
+    color: white;
+  }
+  nav{
+    background: #171c24;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+  }
+  nav .logo{
+    padding-left: 40px;
+    height: 60px;
+    padding-right: 100px;
+  }
+  nav .nav-items{
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 40px;
+  }
+  nav .nav-items li{
+    list-style: none;
+    padding: 0 ;
+  }
+  nav .nav-items li a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+
+  nav .nav-items li a:hover{
+    background-color: #ddd;
+    color: black;
+  }
+  nav .nav-items li a.active{
+    background-color: #e63600;
+    border-top-left-radius: 15px;
+  }
+  nav form{
+    padding: 0 40px;
+    display: flex;
+    height: 40px;
+    padding: 2px;
+    background: #1e232b;
+    min-width: 18%;
+    border-radius: 2px;
+    border: 1px solid rgba(155,155,155,0.2);
+  }
+  nav form .search-data{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    font-weight: 500;
+    background: none;
+  }
+  nav form button{
+    padding: 0 15px;
+    color: #fff;
+    font-size: 17px;
+    background: #ff3d00;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  nav form button:hover{
+    background: #e63600;
+  }
+  nav .cancel-icon,
+  nav .search-icon{
+    width: 40px;
+    text-align: center;
+    margin: 0 50px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+  }
+  nav .cancel-icon,
+  nav .search-icon{
+    display: none;
+  }
+  .slideshow-container {
+    max-width: 1800px;
+    position: relative;
+    margin: auto;
+    float: left;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    left: 1224px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 18px;
+    padding: 8px 12px;
+    position: absolute;
+    left: 60px;
+    bottom: 180px;
+    width: 100%;
+    text-align: left;
+  }
+  .text_blk {
+    color: black;
+    font-size: 18px;
+    padding: 8px 12px;
+    position: absolute;
+    left: 60px;
+    bottom: 180px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .product{
+    padding: 120px;
+    text-align: center;
+  }
+  .set{
+    padding-left: 100px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    float: left;
+    margin:2% 2%;
+  }
+  
+  .price {
+    color: blue;
+    font-size: 22px;
+    padding-top: 10px;
+  }
+  .dec{
+    padding:10px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .open-button {
+    float: right;
+    width: 120px;
+    height: 40px;
+    margin:10px ;
+    font: message-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: #ff3d00;
+    border-width: 0;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    top: 150px;
+    left: 400px;
+    border: 0;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    width: 400px;
+    height: 380px;
+    padding: 10px;
+    background-color:  rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: rgba(245, 238, 237, 0.205);
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: green;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  .form-container h1{
+    text-align: center;
+    padding: 10px;
+    color: #e63600;
+  }
+  .form-container label{
+    color: #e63600;
+    padding-left:10px ;
+    font-weight: bold;
+  }
+  .form-container input{
+    color: #e63600;
+    padding-left:10px;
+    font-weight: bold;
+  }
+  
+.footer{
+  text-align: center;
+  color: #ddd;
+  margin-top: 810px;
+  margin-bottom:0px; 
+}
+.inner{
+  padding-bottom: 40px;
+  background-color: #171c24;
+  padding-top: 30px;
+}

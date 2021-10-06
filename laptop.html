@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style2.css" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,800;1,900&display=swap" rel="stylesheet">
+    <title>T CART</title>
+</head>
+<body>
+    <header>   
+        <nav>
+            <img class="logo" src="Images/logo.png" alt="logo">
+            <div class="nav-items">
+                <li><a href="index.html">Home</a></li>                
+                <li><a class="active" href="laptop.html">Laptops</a></li>
+                <li><a href="mobile.html">Mobiles</a></li>
+                <li><a href="acc.html">Accessories</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </div>
+            <div class="search-icon">
+            <span class="fas fa-search"></span></div>
+            <div class="cancel-icon">
+            <span class="fas fa-times"></span></div>
+            <form action="#">
+              <input type="search" class="search-data" placeholder="Search" required>
+              <button type="submit" class="fas fa-search"></button>
+            </form>
+      </nav>
+    </header>
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="Images/laptop/lap1.jpg" style="width: 1263px">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="Images/laptop/lap2.jpg" style="width: 1263px">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="Images/laptop/lap3.jpg" style="width: 1263px">
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div class="products">
+      <div class="set">
+        <div class="card">
+          <img src="Images/laptop/laptop01.jpg" alt="Laptop1" style="width:100%">
+          <h1>HP Pavilion</h1>
+          <p class="price">₹ 74,840.50</p>
+          <p class="dec">8GB / 1TB HDD</p>
+          <p><a href="laptop1.html"><button>Read More</button></a></p>
+        </div>
+        <div class="card">
+          <img src="Images/laptop/laptop02.jpg" alt="Laptop2" style="width:100%">
+          <h1>Mi Notebook</h1>
+          <p class="price">₹ 54,999.00</p>
+          <p class="dec">8GB / 512GB SSD</p>
+          <p><a href="laptop2.html"><button>Read More</button></a></p>
+        </div>
+        <div class="card">
+          <img src="Images/laptop/laptop03.jpg" alt="Laptop3" style="width:100%">
+          <h1>DELL Alienware</h1>
+          <p class="price">₹ 2,93,081.00</p>
+          <p class="dec">16GB / 1TB SSD</p>
+          <p><a href="laptop3.html"><button>Read More</button></a></p>
+        </div>
+        <div class="card">
+          <img src="Images/laptop/laptop04.jpg" alt="Laptop4" style="width:100%">
+          <h1>ASUS ROG Strix</h1>
+          <p class="price">₹ 3,15,781.00</p>
+          <p class="dec">16GB / 512GB SSD</p>
+          <p><a href="laptop4.html"><button>Read More</button></a></p>
+        </div>
+        <div class="card">
+          <img src="Images/laptop/laptop05.jpg" alt="Laptop5" style="width:100%">
+          <h1>Acer Nitro 5</h1>
+          <p class="price">₹ 79,999.00</p>
+          <p class="dec">8GB / 1TB HDD</p>
+          <p><a href="laptop5.html"><button>Read More</button></a></p>
+        </div>
+        <div class="card">
+          <img src="Images/laptop/laptop06.jpg" alt="Laptop6" style="width:100%">
+          <h1>HP Pavilion</h1>
+          <p class="price">₹ 75,781.00</p>
+          <p class="dec">8GB and 512GB SSD</p>
+          <p><a href="laptop6.html"><button>Read More</button></a></p>
+        </div>
+      </div>
+      
+    </div>
+    <div class="footer">
+      <img src="Images/wave1.svg" style="height: 60px">
+      <div class="inner">
+        <img src="Images/logo.png" style="width: 20%">
+        <p>Buisness District, Lorem, Ipsum, Kolkata, West Bengal 700032</p>
+        <p>Mail us at:- tcartcorp@gmail.com</p>
+        <p>Contact us:- 9874561230</p>
+        <p>copyright © 2020, T Cart corp. or its affiliates </p>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
